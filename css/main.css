@@ -1,0 +1,189 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Nunito Sans';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.header {
+    background-color: aliceblue !important;
+}
+
+.header-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s;
+    border-radius: 0.25rem;
+    padding: 0;
+    height: 58px;
+}
+
+
+.header-btn>a {
+    font-size: 22px;
+    transition: .25s;
+}
+
+.header-btn>a:hover {
+    color: #fff;
+}
+
+.header-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0D6EFD !important;
+    transition: 0.5s;
+    background-color: aliceblue !important;
+}
+
+.header-title:hover {
+    color: #5096ff !important;
+}
+
+.header-items {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo>img {
+    width: 34px;
+}
+
+.welcome {
+    padding-top: 79px;
+    padding-bottom: 79px;
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+}
+
+.welcome-new-files {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-file {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.welcome-file>img {
+    width: 200px;
+    border-radius: 0.3rem;
+}
+
+.welcome-file>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-file-title {
+    font-size: 28px;
+}
+
+.welcome-file-description {
+    font-size: 20px;
+    opacity: 50%;
+    white-space: nowrap;
+}
+
+.welcome-dash {
+    background-color: black;
+    height: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    opacity: 25%;
+}
+
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.welcome-text-title {
+    font-size: 48px;
+}
+
+.welcome-text-description {
+    font-size: 26px;
+}
+
+.section2 {
+    background-color: aliceblue;
+}
+
+.radiophisics-title {
+    font-size: 48px;
+    color: #0D6EFD;
+}
+
+.semester-title {
+    font-size: 28px;
+    color: #0D6EFD;
+}
+
+.list-element {
+    color: #0D6EFD;
+    background-color: rgb(224, 241, 255);
+}
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: #fff !important;
+}
+
+.accordion-button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.download-link {
+    text-decoration: none;
+}
+
+.utils {
+    background-color: #0D6EFD;
+    gap: 20px;
+    border-radius: 0.3rem;
+    margin-left: 2.2rem;
+    margin-top: 25vh;
+    z-index: 9999 !important;
+}
+
+.utils>button>a {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.utils>button>a:hover {
+    color: black !important;
+}
