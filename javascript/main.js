@@ -18,6 +18,12 @@ const btnUp = {
                 behavior: 'smooth'
             });
         }
+
+        document.getElementById("btn-section2").onclick = (e) => {
+            e.preventDefault();
+
+            document.getElementById("section2").scrollIntoView();
+        };
     }
 }
 
