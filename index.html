@@ -23,16 +23,16 @@
       <ul class="nav nav-pills nav-fill gap-4">
         <div class="nav-logo">
           <img src="images/pencil.svg" />
-          <a class="navbar-brand header-title nav-link" role="button">GORUNOV</a>
+          <a class="navbar-brand header-title nav-link" role="button">GO!RUNOV</a>
         </div>
         <li class="nav-item header-btn">
           <button type="button" class="btn btn-outline-primary header-btn">
-            <a class="nav-link">ОГЭ Математика</a>
+            <a class="nav-link" id="btn-section4">ОГЭ Математика</a>
           </button>
         </li>
         <li class="nav-item header-btn">
           <button type="button" class="btn btn-outline-primary header-btn">
-            <a class="nav-link">ОГЭ Физика</a>
+            <a class="nav-link" id="btn-section5">ОГЭ Физика</a>
           </button>
         </li>
         <li class="nav-item">
@@ -42,7 +42,7 @@
         </li>
         <li class="nav-item header-btn">
           <button type="button" class="btn btn-outline-primary header-btn">
-            <a class="nav-link">Полезные материалы</a>
+            <a class="nav-link" id="btn-section3">Полезные материалы</a>
           </button>
         </li>
       </ul>
@@ -55,7 +55,7 @@
     <div class="container welcome">
       <div class="welcome-new-files">
         <div class="welcome-file">
-          <img src="images/fig1.jpg" />
+          <img src="images/panel1.jpg" />
           <div>
             <span class="welcome-file-title">Блог Фёдора Сарафанова</span>
             <span class="welcome-file-description">Много материала для радиофизиков</span>
@@ -63,7 +63,7 @@
         </div>
         <div class="welcome-dash"></div>
         <div class="welcome-file">
-          <img src="images/panel3.png" />
+          <img src="images/panel2.png" />
           <div>
             <span class="welcome-file-title">RF-SLF</span>
             <span class="welcome-file-description">Ресурс факультета</span>
@@ -71,7 +71,7 @@
         </div>
         <div class="welcome-dash"></div>
         <div class="welcome-file">
-          <img src="images/panel2.png" />
+          <img src="images/panel3.jpg" />
           <div>
             <span class="welcome-file-title">KORZHIMANOV.RU</span>
             <span class="welcome-file-description">Для экзамена по атомке</span>
@@ -95,6 +95,8 @@
           личных
           целях, в материалах могут быть ошибки, недочёты и т.п., поэтому призываем вас изучать их с умом. А за недочёты
           просим прощения :)
+        </span>
+        <span>
           <b>Авторы ни в коем случае не поддерживают списывание и рекомендуют все
             выкладки проделывать самостоятельно.
         </span>
@@ -356,6 +358,45 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="section3" id="section3">
+    <div class="container radiophisics d-flex flex-column gap-5 pt-5 pb-5">
+      <span class="radiophisics-title">Полезные материалы</span>
+      <div class="d-flex flex-column gap-5">
+        <div class="semester d-flex flex-column gap-4">
+          <span class="semester-title">5 Семестр</span>
+          <div class="accordion accordion-flush" id="accordionFlushExample1">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button white-a collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+                  Электродинамика
+                </button>
+              </h2>
+              <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample1">
+                <div class="accordion-body list-element" role="button">
+                  <a class="download-link" href="files/lections/electrodynamic_lections_1.pdf" download="electrodynamic_lections_1.pdf">Лекции - часть 1 (2022 г.) - Кудрин
+                    А.В.</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section4" id="section4">
+    <div class="container radiophisics d-flex flex-column gap-5 pt-5 pb-5">
+      <span class="radiophisics-title">ОГЭ Математика</span>
+      <span class="dev fs-3">В процессе разработки..</span>
+    </div>
+  </div>
+  <div class="section5" id="section5">
+    <div class="container radiophisics d-flex flex-column gap-5 pt-5 pb-5">
+      <span class="radiophisics-title">ОГЭ Физика</span>
+      <span class="dev fs-3">В процессе разработки..</span>
     </div>
   </div>
   <div class="btn-up btn-up_hide"></div>
