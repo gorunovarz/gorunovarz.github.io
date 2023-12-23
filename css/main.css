@@ -75,10 +75,10 @@ html {
 }
 
 .welcome {
-    padding-top: 79px;
-    padding-bottom: 79px;
+    padding-top: 91.6px;
+    padding-bottom: 91.6px;
     display: flex;
-    gap: 10rem;
+    gap: 6rem;
     align-items: center;
 }
 
@@ -134,13 +134,18 @@ html {
 
 .welcome-text-title {
     font-size: 48px;
+    text-wrap: nowrap;
 }
 
 .welcome-text-description {
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .section2 {
+    background-color: aliceblue;
+}
+
+.section4 {
     background-color: aliceblue;
 }
 
@@ -167,6 +172,14 @@ html {
 .accordion-button:focus {
     outline: none !important;
     box-shadow: none !important;
+}
+
+.white-a {
+    background-color: aliceblue !important;
+}
+
+.white-a:not(.collapsed) {
+    background-color: aliceblue !important;
 }
 
 .download-link {
@@ -227,4 +240,8 @@ html {
         background-color: #0066ff;
         /* цвет заднего фона при наведении */
     }
+}
+
+.dev {
+    opacity: 35%;
 }
