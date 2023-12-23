@@ -28,3 +28,23 @@ const btnUp = {
 }
 
 btnUp.addEventListener();
+
+function addWelcomeFiles() {
+    let links = ["https://fedorsarafanov.github.io/", "https://rf-slf-4x1.github.io", "https://korzhimanov.ru/", ""];
+    let welcomeFiles = document.getElementsByClassName("welcome-file");
+    if (links.length != welcomeFiles.length)
+        throw new Error("Links length not equals welcome files length");
+
+    for (let i = 0; i < links.length; i++) {
+        let file = welcomeFiles[i];
+        let link = links[i];
+        if (link.length == 0)
+            continue;
+
+        file.onclick = () => {
+            window.open(link);
+        };
+    }
+}
+
+addWelcomeFiles();
