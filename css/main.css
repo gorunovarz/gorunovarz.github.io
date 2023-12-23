@@ -93,8 +93,13 @@ html {
     gap: 30px;
 }
 
+.welcome-file:hover {
+    cursor: pointer;
+}
+
 .welcome-file>img {
     width: 200px;
+    border: 5px solid #0D6EFD;
     border-radius: 0.3rem;
 }
 
