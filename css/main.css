@@ -186,6 +186,11 @@ html {
     text-decoration: none;
 }
 
+.download-link2 {
+    text-decoration: none;
+    color: red;
+}
+
 .utils {
     background-color: #0D6EFD;
     gap: 20px;
