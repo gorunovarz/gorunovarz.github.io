@@ -48,7 +48,7 @@ const btnUp = {
 btnUp.addEventListener();
 
 function addWelcomeFiles() {
-    let links = ["https://fedorsarafanov.github.io/", "https://rf-slf-4x1.github.io", "https://korzhimanov.ru/", "https://vk.com/gorunovarz"];
+    let links = ["https://fedorsarafanov.github.io/", "https://rf-slf-4x1.github.io", "https://korzhimanov.ru/", ""];
     let welcomeFiles = document.getElementsByClassName("welcome-file");
     if (links.length != welcomeFiles.length)
         throw new Error("Links length not equals welcome files length");
